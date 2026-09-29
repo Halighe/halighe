@@ -1,0 +1,30 @@
+.container {
+    padding: 0px 40px;
+}
+
+header {
+    background-color: #4a5b6b;
+}
+
+.header-logo {
+    height: 60px;
+    width: auto;
+}
+
+nav, ul, li {
+    display: inline;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-menu-item {
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
