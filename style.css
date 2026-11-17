@@ -13,7 +13,9 @@ header {
     width: auto;
 }
 
-nav, ul, li {
+nav,
+ul,
+li {
     display: inline;
 }
 
@@ -36,7 +38,59 @@ nav, ul, li {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .project-item {
     max-width: 300px;
     min-width: 150px;
+}
+
+.project-btn {
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: solid #54f27c;
+    color: #54f27c;
+}
+
+.project-btn:hover {
+    color: #ffffff;
+    background-color: #54f27c;
+}
+
+.project-btn:active {
+    background-color: #cdf254;
+}
+
+.project-btn:focus {
+    border: 4px dashed #54f27c;
+}
+
+@media (max-width: 1023px) {
+    .header-menu-item {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 684px) {
+    .project-description {
+        display: none;
+    }
+
+    .header-menu-item {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+}
+
+@media (max-width: 470px) {
+    .header-menu-item {
+        font-size: 10px;
+        margin-left: 10px;
+    }
 }
